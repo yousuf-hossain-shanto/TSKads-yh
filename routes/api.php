@@ -17,4 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/getads/{user_id}', ['uses' => 'GatewayController@get_ads']);
+Route::middleware('cors')->get('/getads/{user_id}', ['uses' => 'GatewayController@get_ads']);
