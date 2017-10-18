@@ -11,4 +11,7 @@
 
 ## 17-10-2017
 
-- running
+- Added Some Advanced Function For Dinamic Admin Menu. (For Details, Check Admin Menu Section Of Doc.md)
+- Initialized Admin Panel And Assets And Some Views.
+- Create DashboardController And Basic Routing.
+- Added Documentation File.
